@@ -8,3 +8,6 @@ set smartindent
 set autoindent
 filetype plugin indent on
 
+" Jump to start of python function
+nnoremap ]d /^\s*def\s<CR>zz
+nnoremap [d ?^\s*def\s<CR>z
